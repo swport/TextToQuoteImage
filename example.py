@@ -1,5 +1,5 @@
 import os, random
-from .ImageQuote import ImageQuote
+from ImageQuote import ImageQuote
 
 bg_files = []
 
