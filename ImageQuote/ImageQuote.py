@@ -46,7 +46,7 @@ def text_wrap_and_font_size(output, font_style, max_width, max_height):
     :param max_width: maximum width of the output image
     :param max_height: maximum height of the output image
     """
-    for font_size in FONT_SIZES_LG:
+    for font_size in FONT_SIZES:
         output[OUTPUT_LINES] = []
         font = ImageFont.truetype(
             font_style[FONT_QUOTE], size=font_size, encoding="unic"
