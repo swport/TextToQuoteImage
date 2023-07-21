@@ -1,5 +1,6 @@
 <h1 align="center">TextToQuoteImage</h1>
 <p align="center"><b>Python library to convert text to a quote image</b></p>
+<p align="center"><b>Has the ability to adjust the text so it won't overflow. So your quote can be as big as you want.</b></p>
 <p align="center"><kbd><img src="https://i.imgur.com/n4sAqY7_d.webp?maxwidth=760&fidelity=grand" height=300px></kbd></p>
 
 ## Basic Usage
@@ -12,6 +13,5 @@ image.set_quote_by("भगवान श्री कृष्ण")
 image.set_font_family("/path/to/font/file.ttf")
 image.set_background_image("/path/to/background_image/file.jpeg")
 
-# generate image in current directory
 image.generate_image("./output")
 ```
