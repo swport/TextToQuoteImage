@@ -25,4 +25,4 @@ image.set_background_image(random_background)
 image.set_output_file_size(35000)
 
 # generate image in current directory
-image.generate_image()
+image.generate_image("./output")
